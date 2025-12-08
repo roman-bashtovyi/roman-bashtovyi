@@ -74,48 +74,21 @@ Crafting modern, accessible web apps with React, TypeScript and Next.js.
 
 <div align="center">
 
-<!-- Languages card -->
-<img height="170" src=".github/stats/languages.svg" alt="Top languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RomanBashtovyi/github-stats/master/generated/languages.svg#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RomanBashtovyi/github-stats/master/generated/languages.svg#gh-light-mode-only">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomanBashtovyi&layout=compact&hide_title=true&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+</picture>
 
 <br />
 
-<!-- Current streak -->
-<img height="170" src=".github/stats/streak.svg" alt="Current streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RomanBashtovyi/github-stats/master/generated/streak.svg#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RomanBashtovyi/github-stats/master/generated/streak.svg#gh-light-mode-only">
+  <img height="170" src="https://streak-stats.demolab.com?user=RomanBashtovyi&theme=tokyonight&hide_border=true" alt="Current streak" />
+</picture>
 
 </div>
-
----
-
-## Featured projects ⭐
-
-<p align="left">
-  <a href="https://github.com/RomanBashtovyi/Bashtovyi-Frontend-Portfolio" target="_blank">
-    <img src=".github/stats/portfolio-card.svg" alt="Portfolio repo card" />
-  </a>
-  <a href="https://github.com/RomanBashtovyi/PowerLogs" target="_blank">
-    <img src=".github/stats/powerlogs-card.svg" alt="PowerLogs repo card" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://github.com/RomanBashtovyi/movie_app_react" target="_blank">
-    <img src=".github/stats/movie-app-card.svg" alt="movie_app_react repo card" />
-  </a>
-  <a href="https://github.com/RomanBashtovyi/aliens_go_home" target="_blank">
-    <img src=".github/stats/aliens-card.svg" alt="aliens_go_home repo card" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://github.com/RomanBashtovyi/university_pager" target="_blank">
-    <img src=".github/stats/university-card.svg" alt="university_pager repo card" />
-  </a>
-  <a href="https://github.com/RomanBashtovyi/cities_weather" target="_blank">
-    <img src=".github/stats/cities-card.svg" alt="cities_weather repo card" />
-  </a>
-</p>
-
-> 🔴 Live: <a href="https://bashtovyi-dev.vercel.app/" target="_blank">`bashtovyi-dev.vercel.app`</a>
 
 ---
 
