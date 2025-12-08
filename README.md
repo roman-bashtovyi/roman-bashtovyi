@@ -75,12 +75,12 @@ Crafting modern, accessible web apps with React, TypeScript and Next.js.
 <div align="center">
 
 <!-- Languages card -->
-<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=RomanBashtovyi&layout=compact&hide_title=true&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img height="170" src=".github/stats/languages.svg" alt="Top languages" />
 
 <br />
 
 <!-- Current streak -->
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=RomanBashtovyi&theme=tokyonight&hide_border=true" alt="Current streak" />
+<img height="170" src=".github/stats/streak.svg" alt="Current streak" />
 
 </div>
 
@@ -90,28 +90,28 @@ Crafting modern, accessible web apps with React, TypeScript and Next.js.
 
 <p align="left">
   <a href="https://github.com/RomanBashtovyi/Bashtovyi-Frontend-Portfolio" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=Bashtovyi-Frontend-Portfolio&theme=tokyonight&hide_border=true" alt="Portfolio repo card" />
+    <img src=".github/stats/portfolio-card.svg" alt="Portfolio repo card" />
   </a>
   <a href="https://github.com/RomanBashtovyi/PowerLogs" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=PowerLogs&theme=tokyonight&hide_border=true" alt="PowerLogs repo card" />
+    <img src=".github/stats/powerlogs-card.svg" alt="PowerLogs repo card" />
   </a>
 </p>
 
 <p align="left">
   <a href="https://github.com/RomanBashtovyi/movie_app_react" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=movie_app_react&theme=tokyonight&hide_border=true" alt="movie_app_react repo card" />
+    <img src=".github/stats/movie-app-card.svg" alt="movie_app_react repo card" />
   </a>
   <a href="https://github.com/RomanBashtovyi/aliens_go_home" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=aliens_go_home&theme=tokyonight&hide_border=true" alt="aliens_go_home repo card" />
+    <img src=".github/stats/aliens-card.svg" alt="aliens_go_home repo card" />
   </a>
 </p>
 
 <p align="left">
   <a href="https://github.com/RomanBashtovyi/university_pager" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=university_pager&theme=tokyonight&hide_border=true" alt="university_pager repo card" />
+    <img src=".github/stats/university-card.svg" alt="university_pager repo card" />
   </a>
   <a href="https://github.com/RomanBashtovyi/cities_weather" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=cities_weather&theme=tokyonight&hide_border=true" alt="cities_weather repo card" />
+    <img src=".github/stats/cities-card.svg" alt="cities_weather repo card" />
   </a>
 </p>
 
@@ -126,7 +126,7 @@ Crafting modern, accessible web apps with React, TypeScript and Next.js.
 - 🤖 Developed AI integrations: ChatGPT & DALL-E page generator, content regeneration system
 - 🔐 Implemented Auth0/Google OAuth, JWT tokens, and WebSocket real-time notifications
 - 📊 Created advanced filtering and mass operations for large data volumes
-- ⚡ Optimized performance: code splitting, lazy loading, 30% bundle size reduction with Preact
+- ⚡ Optimized performance: code splitting, lazy loading
 - 📱 Implemented PWA functionality: Service Workers for offline mode, Web Push Notifications
 - 🧰 State management: Redux Toolkit, Context API, React Query
 - 🛠️ Worked with development tools: Jira, Notion, ClickUp, Trello, Confluence, Cursor

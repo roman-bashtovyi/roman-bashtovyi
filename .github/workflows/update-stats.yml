@@ -1,0 +1,70 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create stats directory
+        run: mkdir -p .github/stats
+
+      - name: Download Top Languages
+        run: |
+          curl -o .github/stats/languages.svg \
+          "https://github-readme-stats.vercel.app/api/top-langs/?username=RomanBashtovyi&layout=compact&hide_title=true&theme=tokyonight&hide_border=true"
+
+      - name: Download Streak Stats
+        run: |
+          curl -o .github/stats/streak.svg \
+          "https://streak-stats.demolab.com?user=RomanBashtovyi&theme=tokyonight&hide_border=true"
+
+      - name: Download Portfolio Repo Card
+        run: |
+          curl -o .github/stats/portfolio-card.svg \
+          "https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=Bashtovyi-Frontend-Portfolio&theme=tokyonight&hide_border=true"
+
+      - name: Download PowerLogs Repo Card
+        run: |
+          curl -o .github/stats/powerlogs-card.svg \
+          "https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=PowerLogs&theme=tokyonight&hide_border=true"
+
+      - name: Download Movie App Repo Card
+        run: |
+          curl -o .github/stats/movie-app-card.svg \
+          "https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=movie_app_react&theme=tokyonight&hide_border=true"
+
+      - name: Download Aliens Go Home Repo Card
+        run: |
+          curl -o .github/stats/aliens-card.svg \
+          "https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=aliens_go_home&theme=tokyonight&hide_border=true"
+
+      - name: Download University Pager Repo Card
+        run: |
+          curl -o .github/stats/university-card.svg \
+          "https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=university_pager&theme=tokyonight&hide_border=true"
+
+      - name: Download Cities Weather Repo Card
+        run: |
+          curl -o .github/stats/cities-card.svg \
+          "https://github-readme-stats.vercel.app/api/pin/?username=RomanBashtovyi&repo=cities_weather&theme=tokyonight&hide_border=true"
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .github/stats/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats [skip ci]" && git push)
