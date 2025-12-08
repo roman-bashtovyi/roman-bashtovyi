@@ -75,12 +75,12 @@ Crafting modern, accessible web apps with React, TypeScript and Next.js.
 <div align="center">
 
 <!-- Languages card -->
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomanBashtovyi&layout=compact&hide_title=true&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=RomanBashtovyi&layout=compact&hide_title=true&theme=tokyonight&hide_border=true" alt="Top languages" />
 
 <br />
 
-<!-- Current streak only -->
-<img height="170" src="https://streak-stats.demolab.com?user=RomanBashtovyi&theme=tokyonight&hide_border=true" alt="Current streak" />
+<!-- Current streak -->
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=RomanBashtovyi&theme=tokyonight&hide_border=true" alt="Current streak" />
 
 </div>
 
