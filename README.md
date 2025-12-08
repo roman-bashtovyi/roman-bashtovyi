@@ -74,19 +74,9 @@ Crafting modern, accessible web apps with React, TypeScript and Next.js.
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RomanBashtovyi/github-stats/master/generated/languages.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RomanBashtovyi/github-stats/master/generated/languages.svg#gh-light-mode-only">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomanBashtovyi&layout=compact&hide_title=true&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</picture>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RomanBashtovyi&layout=compact&hide_title=true&theme=tokyonight&hide_border=true&langs_count=8)
 
-<br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RomanBashtovyi/github-stats/master/generated/streak.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RomanBashtovyi/github-stats/master/generated/streak.svg#gh-light-mode-only">
-  <img height="170" src="https://streak-stats.demolab.com?user=RomanBashtovyi&theme=tokyonight&hide_border=true" alt="Current streak" />
-</picture>
+![GitHub Streak](https://streak-stats.demolab.com?user=RomanBashtovyi&theme=tokyonight&hide_border=true)
 
 </div>
 
